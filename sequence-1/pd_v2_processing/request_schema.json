@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "pti": {
+      "type": "number",
+      "description": "external + internal monthly payment to income ratio"
+    },
+    "score_results": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "BALMAG01": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "revolving_amount_monthly_payment": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "closed_with_balance_amount_current_balance": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "AT31S": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "AT20S": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "BC21S": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "record_counts_revolving_trade_count": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "record_counts_total_trade_count": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "PAYMNT10": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "AGG102": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "total_amount_high_credit": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "revolving_amount_current_balance": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "total_amount_current_balance": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "REV83": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "revolving_amount_high_credit": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "closed_with_balance_amount_monthly_payment": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "revolving_amount_percent_available_credit": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "AGG101": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "revolving_amount_credit_limit": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "AT09S": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "US01S": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    }
+  },
+  "required": [
+    "pti",
+    "score_results",
+    "BALMAG01",
+    "revolving_amount_monthly_payment",
+    "closed_with_balance_amount_current_balance",
+    "AT31S",
+    "AT20S",
+    "BC21S",
+    "record_counts_revolving_trade_count",
+    "record_counts_total_trade_count",
+    "PAYMNT10",
+    "AGG102",
+    "total_amount_high_credit",
+    "revolving_amount_current_balance",
+    "total_amount_current_balance",
+    "REV83",
+    "revolving_amount_high_credit",
+    "closed_with_balance_amount_monthly_payment",
+    "revolving_amount_percent_available_credit",
+    "AGG101",
+    "revolving_amount_credit_limit",
+    "AT09S",
+    "US01S"
+  ]
+}

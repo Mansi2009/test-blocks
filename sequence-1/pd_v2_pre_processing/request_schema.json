@@ -1,0 +1,138 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "record_counts_revolving_trade_count": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "record_counts_total_trade_count": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "score_results": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "total_amount_high_credit": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "revolving_amount_credit_limit": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "revolving_amount_percent_available_credit": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "revolving_amount_current_balance": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "revolving_amount_monthly_payment": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "revolving_amount_high_credit": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "closed_with_balance_amount_current_balance": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "closed_with_balance_amount_monthly_payment": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "AGG101": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "AGG102": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "AT09S": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "AT20S": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "AT31S": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "BALMAG01": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "BC21S": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "PAYMNT10": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "REV83": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "US01S": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "monthly_income": {
+      "type": "number",
+      "description": "If loan sanctioned to customer, expected monthly payment to Kiwi."
+    },
+    "internal_monthly_payment": {
+      "type": "number",
+      "description": "If loan sanctioned to customer, expected monthly payment to Kiwi."
+    },
+    "installment_amount_monthly_payment": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "open_amount_current_balance": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    },
+    "installment_amount_current_balance": {
+      "type": "integer",
+      "description": "The current owed balance on installement trades/accounts."
+    }
+  },
+  "required": [
+    "record_counts_revolving_trade_count",
+    "record_counts_total_trade_count",
+    "score_results",
+    "total_amount_high_credit",
+    "revolving_amount_credit_limit",
+    "revolving_amount_percent_available_credit",
+    "revolving_amount_current_balance",
+    "revolving_amount_monthly_payment",
+    "revolving_amount_high_credit",
+    "closed_with_balance_amount_current_balance",
+    "closed_with_balance_amount_monthly_payment",
+    "AGG101",
+    "AGG102",
+    "AT09S",
+    "AT20S",
+    "AT31S",
+    "BALMAG01",
+    "BC21S",
+    "PAYMNT10",
+    "REV83",
+    "US01S",
+    "monthly_income",
+    "internal_monthly_payment",
+    "installment_amount_monthly_payment",
+    "open_amount_current_balance",
+    "installment_amount_current_balance"
+  ]
+}

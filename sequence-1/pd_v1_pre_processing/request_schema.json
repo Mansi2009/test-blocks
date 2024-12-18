@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "record_counts_revolving_trade_count": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "record_counts_total_trade_count": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "score_results": {
+      "type": "number",
+      "description": "If loan provided by Kiwi, expected monthly payment"
+    },
+    "total_amount_current_balance": {
+      "type": "number",
+      "description": "If loan provided by Kiwi, expected monthly payment"
+    },
+    "total_amount_high_credit": {
+      "type": "number",
+      "description": "If loan provided by Kiwi, expected monthly payment"
+    },
+    "revolving_amount_credit_limit": {
+      "type": "number",
+      "description": "If loan provided by Kiwi, expected monthly payment"
+    },
+    "revolving_amount_percent_available_credit": {
+      "type": "number",
+      "description": "If loan provided by Kiwi, expected monthly payment"
+    },
+    "revolving_amount_current_balance": {
+      "type": "number",
+      "description": "If loan provided by Kiwi, expected monthly payment"
+    },
+    "revolving_amount_monthly_payment": {
+      "type": "number",
+      "description": "If loan provided by Kiwi, expected monthly payment"
+    },
+    "revolving_amount_high_credit": {
+      "type": "number",
+      "description": "If loan provided by Kiwi, expected monthly payment"
+    },
+    "closed_with_balance_amount_current_balance": {
+      "type": "number",
+      "description": "If loan provided by Kiwi, expected monthly payment"
+    },
+    "closed_with_balance_amount_monthly_payment": {
+      "type": "number",
+      "description": "If loan provided by Kiwi, expected monthly payment"
+    },
+    "AGG101": {
+      "type": "number",
+      "description": "If loan provided by Kiwi, expected monthly payment"
+    },
+    "AGG102": {
+      "type": "number",
+      "description": "If loan provided by Kiwi, expected monthly payment"
+    },
+    "AT09S": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "AT20S": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "AT31S": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "BALMAG01": {
+      "type": "number",
+      "description": "If loan provided by Kiwi, expected monthly payment"
+    },
+    "BC21S": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "PAYMNT10": {
+      "type": "number",
+      "description": "If loan provided by Kiwi, expected monthly payment"
+    },
+    "REV83": {
+      "type": "number",
+      "description": "If loan provided by Kiwi, expected monthly payment"
+    },
+    "US01S": {
+      "type": "integer",
+      "description": "Number of unsecured installment trades"
+    },
+    "monthly_income": {
+      "type": "number",
+      "description": "If loan provided by Kiwi, expected monthly payment"
+    },
+    "total_amount_monthly_payment": {
+      "type": "number",
+      "description": "If loan provided by Kiwi, expected monthly payment"
+    },
+    "internal_monthly_payment": {
+      "type": "number",
+      "description": "If loan provided by Kiwi, expected monthly payment"
+    }
+  },
+  "required": [
+    "firebase_id",
+    "tu_created_at",
+    "record_counts_revolving_trade_count",
+    "record_counts_total_trade_count",
+    "score_results",
+    "total_amount_current_balance",
+    "total_amount_high_credit",
+    "revolving_amount_credit_limit",
+    "revolving_amount_percent_available_credit",
+    "revolving_amount_current_balance",
+    "revolving_amount_monthly_payment",
+    "revolving_amount_high_credit",
+    "closed_with_balance_amount_current_balance",
+    "closed_with_balance_amount_monthly_payment",
+    "AGG101",
+    "AGG102",
+    "AT09S",
+    "AT20S",
+    "AT31S",
+    "BALMAG01",
+    "BC21S",
+    "PAYMNT10",
+    "REV83",
+    "US01S",
+    "monthly_income",
+    "total_amount_monthly_payment",
+    "internal_monthly_payment"
+  ]
+}

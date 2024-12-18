@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "pti": {
+      "type": "number",
+      "description": "external + internal monthly payment to income ratio"
+    },
+    "score_results": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    },
+    "revolving_amount_monthly_payment": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    },
+    "AT31S": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    },
+    "total_amount_high_credit": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    },
+    "AT20S": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    },
+    "BALMAG01": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    },
+    "record_counts_revolving_trade_count": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    },
+    "PAYMNT10": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    },
+    "closed_with_balance_amount_current_balance": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    },
+    "REV83": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    },
+    "AGG102": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    },
+    "BC21S": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    },
+    "record_counts_total_trade_count": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    },
+    "revolving_amount_current_balance": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    },
+    "total_amount_current_balance": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    },
+    "revolving_amount_high_credit": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    },
+    "US01S": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    },
+    "AGG101": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    },
+    "closed_with_balance_amount_monthly_payment": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    },
+    "revolving_amount_credit_limit": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    },
+    "revolving_amount_percent_available_credit": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    },
+    "AT09S": {
+      "type": "integer",
+      "description": "Number of trades opened in past 24 months"
+    }
+  },
+  "required": [
+    "pti",
+    "score_results",
+    "revolving_amount_monthly_payment",
+    "AT31S",
+    "total_amount_high_credit",
+    "AT20S",
+    "BALMAG01",
+    "record_counts_revolving_trade_count",
+    "PAYMNT10",
+    "closed_with_balance_amount_current_balance",
+    "REV83",
+    "AGG102",
+    "BC21S",
+    "record_counts_total_trade_count",
+    "revolving_amount_current_balance",
+    "total_amount_current_balance",
+    "revolving_amount_high_credit",
+    "US01S",
+    "AGG101",
+    "closed_with_balance_amount_monthly_payment",
+    "revolving_amount_credit_limit",
+    "revolving_amount_percent_available_credit",
+    "AT09S"
+  ]
+}

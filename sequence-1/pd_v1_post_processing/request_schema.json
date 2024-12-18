@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "probability": {
+      "type": "number",
+      "description": "PD v1 Model predicted score."
+    }
+  },
+  "required": [
+    "probability"
+  ]
+}
